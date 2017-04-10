@@ -39,7 +39,7 @@ $("body").on("click", ".reset-button", function(event){
 	resetGame();
 });
 
-});  
+});
 
 function generateLossDueToTimeOut() {
 	unansweredTally++;
@@ -114,7 +114,7 @@ var counter = 30;
 var questionArray = ["What do you call these badboys? <img src='assets/images/jncos.jpg'>", "When you see this image, what emotions do you feel? <img src='assets/images/duckhunt.gif'>", "Who <del>is</del> was this? <img src='assets/images/kurtcobain.jpg'>", "Who was the host of TRL - 'Total Request Live?'' ", "What is this gentleman's real name? <img src='assets/images/screech.jpg'>", "Finish the sentence of this popular 90's TV series: <img src='assets/images/freshprince.jpg'><br>'..West Philadelphia, born and raised...'", "Which of the following is NOT a Ninja Turtle? <img src='assets/images/turtles.jpg'>", "What is Bill Clinton's favorite instrument? <img src='assets/images/billclinton.gif'>"];
 var answerArray = [["JNCO Jeans!", "POGS", "CROCS", "Hot wheels"], ["Happiness and joy, because this dog is laughing WITH me","Anger and frustration, because this damn dog is laughing AT me", "I don't care", "My parents didn't let me play Nintendo because it was a gateway to Satan"], ["Burt Coltrane", "Kert Coldbrain", "Kurt Cobain", "Kanye West"], ["Carson Daly", "Seth Rogen", "Matt Pinfield", "Kurt Loder"],["AC Slater","Mark Paul Gosselar",
 "Sarah Michelle Gellar","Dustin Diamond"], ["cause baby baby baby OH","..on the playground is where I spent most of my days", "panda panda panda panda", "DEEZ NUTS"],["Leonardo","Donatello","Master Splinter","Raphael"], ["Saxophone", "Piano", "Trombone", "Harmonica"]];
-var imageArray = ["<img class='center-block img-right' src='img/1.jpg'>", "<img class='center-block img-right' src='img/2.png'>", "<img class='center-block img-right' src='img/3.png'>", "<img class='center-block img-right' src='img/4.png'>", "<img class='center-block img-right' src='img/5.png'>", "<img class='center-block img-right' src='img/6.png'>", "<img class='center-block img-right' src='img/7.png'>", "<img class='center-block img-right' src='img/8.png'>"];
+var imageArray = ["<img class='center-block img-right' src='assets/images/1.jpg'>", "<img class='center-block img-right' src='assets/images/2.png'>", "<img class='center-block img-right' src='assets/images/3.png'>", "<img class='center-block img-right' src='assets/images/4.png'>", "<img class='center-block img-right' src='assets/images/5.png'>", "<img class='center-block img-right' src='assets/images/6.png'>", "<img class='center-block img-right' src='assets/images/7.png'>", "<img class='center-block img-right' src='assets/images/8.png'>"];
 var correctAnswers = ["A. JNCO Jeans!", "B. Anger and frustration, because this damn dog is laughing AT me", "C. Kurt Cobain", "A. Carson Daly", "D. Dustin Diamond", "B. ..on the playground is where I spent most of my days", "C. Master Splinter", "D. Harmonica"];
 var questionCounter = 0;
 var selecterAnswer;
